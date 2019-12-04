@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'pry', '~> 0.12.2'
 gem 'devise'
 gem 'nifty-generators', '~> 0.4.6'
+# Easy upload management for ActiveRecord
+gem 'paperclip', '~> 6.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -55,3 +57,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'mocha', group: :test
